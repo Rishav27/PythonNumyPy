@@ -58,3 +58,16 @@ if __name__ == "__main__":
 
     print(arr + arr2)
     print(arr * arr2)
+
+    # Aggregate Functions
+    arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+    # print(np.sum(arr))
+    # print(np.mean(arr))
+    # print(np.min(arr))
+    # print(np.max(arr))
+    # print(np.argmin(arr))
+    # print(np.argmax(arr))
+
+    print(np.sum(arr, axis=0))  # column-wise sum
+    print(np.sum(arr, axis=1))  # row-wise sum
