@@ -51,3 +51,10 @@ if __name__ == "__main__":
     print(marks < 60)
     marks[marks < 60] = 0
     print(marks)
+
+    # broadcasting
+    arr = np.array([1, 2, 3])
+    arr2 = np.array([[1], [2], [3]])
+
+    print(arr + arr2)
+    print(arr * arr2)
